@@ -46,7 +46,7 @@ public class NameFragment extends Fragment {
     private void nextFragment() {
         NumberFragment numberFragment = new NumberFragment();
         requireActivity().getSupportFragmentManager().beginTransaction().replace(R.id.container, numberFragment).addToBackStack(null).commit();
-    }
+    } 
 
     private void loadData() {
         names.add("Constantin");
